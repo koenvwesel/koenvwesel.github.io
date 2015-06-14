@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+h1 {
+	color:#800000;
+	font-family: 'Lora', serif;
+}
+
+p {
+	color:#800000;
+	font-family: arial;
+	padding: 15px;
+}
+
+li {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+#abc {
+	font-size: 50pt;
+	outline-color: red;
+}
+#home {
+	background-color: white;
+}
+
+#home h1{
+	padding: 15px;
+}
+
+
+#navBar a:hover,#navBar a:active {
+	color: white;
+}
+body { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#con {
+	background-color: white;
+	padding: 15px;
+}
+/*guide*/
+#guide {
+	width: 100%;
+	text-align: center;
+	font-size: 60pt;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#guide a {
+	color: black; 
+}
+#guide a:hover {
+
+	color: red;
+}
+#navBar a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#navBar a:hover, a:active {
+    background-color: black;
+}
+#navBar, #navbar:hover  {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: grey;
+	width: 100%;
+}
+ 
+img {
+	float: right; 
+}
+.container {
+	margin: auto;
+	max-width: 1000px;
+}
+#FCE {
+	color:#800000;
+}
