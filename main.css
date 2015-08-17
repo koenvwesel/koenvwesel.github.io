@@ -10,7 +10,7 @@ p {
 	font-family: arial;
 	padding: 15px;
 }
-
+ 
 li {
 	float: left;
 }
@@ -94,4 +94,8 @@ img {
 }
 #FCE {
 	color:#800000;
+}
+#counter {
+	color:transparent;
+	font-size: 0pt;
 }
