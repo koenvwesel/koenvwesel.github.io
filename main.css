@@ -30,7 +30,7 @@ ul {
 }
 
 #home h1{
-	padding: 15px;
+	margin: 15px;
 }
 
 
@@ -50,11 +50,11 @@ body {
 }
 /*guide*/
 #guide {
-	width: 100%;
+	max-width: 100%;
 	text-align: center;
 	font-size: 60pt;
-	padding-left: 15px;
-	padding-right: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 #guide a {
 	color: black; 
