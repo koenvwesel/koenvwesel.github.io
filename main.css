@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(http://fonts.googleapis.com/css?family=Lora);
 h1 {
-	color:#800000;
+	color:white;
 	font-family: 'Lora', serif;
 }
 
@@ -11,15 +11,6 @@ p {
 	padding: 15px;
 }
  
-li {
-	float: left;
-}
-
-ul {
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-}
 
 #abc {
 	font-size: 50pt;
@@ -33,10 +24,6 @@ ul {
 	margin: 15px;
 }
 
-
-#navBar a:hover,#navBar a:active {
-	color: white;
-}
 body { 
   background: url(bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -47,6 +34,7 @@ body {
 #con {
 	background-color: white;
 	padding: 15px;
+	max-width: 100%;
 }
 /*guide*/
 #guide {
@@ -57,24 +45,27 @@ body {
 	margin-right: 15px;
 }
 #guide a {
-	color: black; 
+	color:#800000 ; 
 }
 #guide a:hover {
 
-	color: red;
+	color: white;
 }
+
+#navBarli{
+	float: left;
+
+}
+
 #navBar a:link, a:visited {
-    display: block;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: grey;
+    color: black;
     text-align: center;
-    padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
+    padding:0px;
 }
 #navBar a:hover, a:active {
-    background-color: black;
+
 }
 #navBar, #navbar:hover  {
 	display: block;
@@ -82,20 +73,29 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: grey;
-	width: 100%;
+	width: 100%;	
+	list-style-type: none;
+	padding-bottom:40px;
 }
- 
-img {
-	float: right; 
-}
-.container {
-	margin: auto;
-	max-width: 1000px;
+#dropbox {
+	float: left;
+	display: block;
+	padding:0px;
+	overflow: default;
+	background-color:grey;
+	color: grey;
 }
 #FCE {
 	color:#800000;
 }
-#counter {
-	color:transparent;
-	font-size: 0pt;
+#conboard {
+	max-width: 200px;
+	margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    overflow: hidden;
+    transform: translate(-50%); 
+    overflow: hidden;
+
 }
