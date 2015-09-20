@@ -75,7 +75,8 @@ body {
 	background-color: grey;
 	width: 100%;	
 	list-style-type: none;
-	padding-bottom:40px;
+	padding-top: 5px;
+	padding-bottom: 40px;
 }
 #dropbox {
 	float: left;
