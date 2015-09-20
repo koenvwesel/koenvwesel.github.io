@@ -45,11 +45,13 @@ body {
 	margin-right: 15px;
 }
 #guide a {
-	color:#800000 ; 
+	color:#800000 ;
+	-webkit-text-stroke: 3px white;
 }
 #guide a:hover {
 
 	color: white;
+	-webkit-text-stroke: 3px #800000;
 }
 
 #navBarli{
