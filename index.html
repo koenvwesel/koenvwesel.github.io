@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<title>Koen van Wesel</title>
-<link rel="stylesheet" type="text/css" href="main.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="bijles, Fijnaart, engels">
- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<head>
+	<title>Koen van Wesel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$("#scroll").click(function(){
+	$('html, body').animate({
+    scrollTop: $("#main-page").offset().top
+	}, 1500);
+	});
+  	});</script>
+  	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-67791376-1', 'auto');
+	ga('send', 'pageview');
+	</script>
 
-  ga('create', 'UA-67791376-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head>
-<body id="home"> 
-<h1 id="abc">Koen van Wesel</h1>
+<body class="desktop">
 
-<div id="guide">
-	<a href="bio.html" data-toggle="tooltip" data-placement="bottom" title="Over mij"><i class="fa fa-info-circle"></i></a>
-	<a href="contact.html" data-toggle="tooltip" data-placement="bottom" title="Contact"><i class="fa fa-paper-plane"></i></a>
-</div>
-<br><br><br><br><br><br>
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
+	<div id="start-page" class="fix-height">
+		<div class="center vcenter">
+			<h1 id="title">Koen van Wesel</h1>
+		</div>
+	</div>
+	<div id="main-page" class="full-page">
+		<div class="container-fluid">
+			<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" id="text-block">
+			<h2>About me</h2><br>
+			<div class="row center"><img id"photo" src="https://s.gravatar.com/avatar/397c4747fa4cd760e9e3a43385f01f62?s=200" width="200px" height="200px"></div><br><br>
+			<p> Hello! My name is Koen and I'm 16 years old. I live in a small town called Fijnaart located in The Netherlands. About a year ago I started to do some coding with some help of a good friend <a href="http://tkon99.github.io/">Thomas Konings</a>. I'm in the fifth form (<a href="https://en.wikipedia.org/wiki/Education_in_the_Netherlands#VWO">VWO-Gymnasium</a>) and hope to pass my final exams next year. Even though I'm still in school, I've already got my <a href="http://www.cambridgeenglish.org/exams/first/">FCE</a> and I hope to pass the CPE exam later this year.<br><br>In my leisure time I like to code, play games on my console, and to read scientific articles. I hope you like my website!</p>
+			</div>
+			<div class="col-md-3"></div>
+			</div>	
+			</div>
+		</div>	
+	</div>
+	<div id="footer">
+		<ul id="social" class="center">
+			<li><a href="https://www.facebook.com/koen.vanwesel.3"><i class="fa fa-facebook"></i></a></li>	
+			<li><a href="https://www.instagram.com/koen.van.wesel/"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://twitter.com/koenvanwesel"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="mailto:koen99.van.wesel@gmail.com" target="blank"><i class="fa fa-envelope"></i></a></li>
+			<li><a id="scroll" href="#">about me <i class="fa fa-caret-down"></i></a></li>
+		</ul>
+	</div>
 </body>
 </html>

@@ -1,104 +1,139 @@
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-@import url(http://fonts.googleapis.com/css?family=Lora);
-h1 {
-	color:white !important;
-	font-family: 'Lora', serif !important;
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	background-image: url(background.jpg);
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+}
+.desktop{
+	background: url(background.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.mobile{
+	background: url(background.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+#start-page {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+	min-height: 100%;
+	min-height: 100vh;
+}
+#title {
+
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	font-family: 'Libre Baskerville', serif;
+  	color:#800000;
+  	font-size: 66pt;
+}
+
+.vcenter{
+	position: absolute;
+	top: 50%;
+  		-webkit-transform: translateY(-50%);
+  		-ms-transform: translateY(-50%);
+  		transform: translateY(-50%);
+    line-height:100%;
+}
+
+.center{
+	width: 100%;
+	text-align: center;
+}
+
+#main-page {
+	background: rgba(255,255,255,0.6);
+	background-repeat: repeat;
+	min-height: 100%;
+	min-height: 100vh;
+	position: absolute;
+	min-width: 100%;
+}
+ 
+#photo {
+	display: inline;
+	text-align: middle!important;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Lobster', cursive !important;
+	font-size: 40px!important;
 }
 
 p {
-	color:#800000;
-	font-family: arial;
-	padding: 15px;
-}
- 
-
-#abc {
-	font-size: 50pt;
-	outline-color: red;
-}
-#home {
-	background-color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 15pt;
 }
 
-#home h1{
-	margin: 15px;
+#text-block {  
+	background: rgba(255,255,255,1.0);
+	top: 40px;
 }
 
-body { 
-  background: url(bg1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#con {
-	background-color: white;
-	padding: 15px;
-	max-width: 100%;
-}
-/*guide*/
-#guide {
-	max-width: 100%;
+.text {
+	padding-top: 20px;
 	text-align: center;
-	font-size: 60pt;
-	margin-left: 15px;
-	margin-right: 15px;
 }
-#guide a {
-	color:#800000 ;
-	-webkit-text-stroke: 3px white;
-}
-#guide a:hover {
 
+#header {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:50px;   
+	background:rgba(0,0,0,1.0);
+	opacity: 0.7;
+}
+
+.dropdown {
+	background: transparent;
+	font-size: 25px;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:50px;   
+   background: rgba(0,0,0,0.4);
+   border-top: 1px solid rgba(0,0,0,0.35);
+   box-shadow: inset 0 1px rgba(255,255,255,0.4), inset 0 10px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.35), inset 0 -15px rgba(0,0,0,0.10);
+}
+
+#social {
+	text-align: center !important;
+}
+
+li {
+	display: inline-block !important;
+	border-left: 5px rgba(0,0,0,1.0);
+	font-size: 25px !important;
+	margin:12px !important;
+}
+
+i {
 	color: white;
-	-webkit-text-stroke: 3px #800000;
+	opacity: 1.0;
 }
 
-#navBarli{
-	float: left;
-
-}
-
-#navBar a:link, a:visited {
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding:0px;
-}
-#navBar a:hover, a:active {
-
-}
-#navBar, #navbar:hover  {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: grey;
-	width: 100%;	
-	list-style-type: none;
-	padding-top: 5px;
-	padding-bottom: 40px;
-}
-#dropbox {
-	float: left;
-	display: block;
-	padding:0px;
-	overflow: default;
-	background-color:grey;
-	color: grey;
-}
-#FCE {
-	color:#800000;
-}
-#conboard {
-	max-width: 200px;
-	margin: 0;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    overflow: hidden;
-    transform: translate(-50%); 
-    overflow: hidden;
-
+#scroll, #scroll:hover {
+	color: white!important;
+	text-decoration: none!important;
+	font-family: 'Libre Baskerville', serif;
 }
